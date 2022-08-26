@@ -14,9 +14,7 @@ public class LinkedList<E> {
             newNode.next = head;
             head = newNode;
         }
-
     }
-
     public void print() {
         Node<E> temp = head;
         while (temp!=null){
@@ -24,7 +22,6 @@ public class LinkedList<E> {
             temp= temp.next;
         }
     }
-
     public void add(E key) {
         Node<E> newNode = new Node<>(key);
         if(head == null){
@@ -35,6 +32,5 @@ public class LinkedList<E> {
            tail.next = newNode;
            tail = newNode;
         }
-
     }
 }
