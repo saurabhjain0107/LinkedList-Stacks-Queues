@@ -33,4 +33,10 @@ public class LinkedList<E> {
            tail = newNode;
         }
     }
+
+    public E pop() {
+        E deleteData = head.key;
+        head = head.next;
+        return deleteData;
+    }
 }

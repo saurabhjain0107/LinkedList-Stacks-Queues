@@ -7,5 +7,9 @@ public class LinkedListMain {
         linkedList2.add("30");
         linkedList2.add("70");
         linkedList2.print();
+        System.out.println();
+        linkedList2.pop();
+        linkedList2.print();
+
     }
 }
