@@ -2,11 +2,11 @@ package com.bridgelabz.ds;
 
 public class LinkedListMain {
     public static void main(String[] args) {
-        LinkedList<Integer> linkedLis1 = new LinkedList<>();
-        linkedLis1.push(70);
-        linkedLis1.push(30);
-        linkedLis1.push(56);
-        linkedLis1.print();
+        LinkedList<String> linkedList2 = new LinkedList<>();
+        linkedList2.add("56");
+        linkedList2.add("30");
+        linkedList2.add("70");
+        linkedList2.print();
 
     }
 
