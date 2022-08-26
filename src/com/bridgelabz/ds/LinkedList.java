@@ -39,4 +39,15 @@ public class LinkedList<E> {
         head = head.next;
         return deleteData;
     }
+
+    public E poplast() {
+        E deletedata = tail.key;
+        Node<E> temp = head;
+        while(temp.next != tail){
+            temp = temp.next;
+        }
+        temp.next = null;
+        temp = tail;
+        return deletedata;
+    }
 }
