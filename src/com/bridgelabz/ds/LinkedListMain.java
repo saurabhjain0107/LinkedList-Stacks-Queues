@@ -2,15 +2,12 @@ package com.bridgelabz.ds;
 
 public class LinkedListMain {
     public static void main(String[] args) {
-        System.out.println("Stack Operation");
-        Stack<Integer> stack = new Stack<>();
-        stack.push(56);
-        stack.push(30);
-        stack.push(70);
-        stack.print();
-        System.out.println();
-        stack.pop();
-        stack.print();
+        System.out.println("Queues Operation");
+       Queue<Integer> queue = new Queue<>();
+       queue.add(56);
+       queue.add(30);
+       queue.add(70);
+       queue.print();
 
     }
 }
