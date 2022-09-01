@@ -50,4 +50,24 @@ public class LinkedList<E> {
         temp = tail;
         return deletedata;
     }
+
+    public Node<E> search(E searchdata) {
+        Node<E> temp = head;
+        while (temp!=null) {
+            if (temp.key.equals(searchdata))
+                return temp;
+            temp = temp.next;
+        }
+        return null;
+    }
+    public boolean insertafter(E searchdata, E insertafter) {
+        Node<E> newNode = new Node<>(insertafter);
+        Node<E> searchedNode = search(searchdata);
+        if(searchedNode!=null){
+            newNode.next = searchedNode.next;
+            searchedNode.next = newNode;
+            return true;
+        }
+        return false;
+    }
 }

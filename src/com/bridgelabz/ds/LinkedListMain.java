@@ -8,7 +8,7 @@ public class LinkedListMain {
         linkedList2.add("70");
         linkedList2.print();
         System.out.println();
-        linkedList2.poplast();
+        linkedList2.insertafter("30","40");
         linkedList2.print();
 
     }
