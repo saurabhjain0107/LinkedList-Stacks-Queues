@@ -2,14 +2,12 @@ package com.bridgelabz.ds;
 
 public class LinkedListMain {
     public static void main(String[] args) {
-        LinkedList<String> linkedList2 = new LinkedList<>();
-        linkedList2.add("56");
-        linkedList2.add("30");
-        linkedList2.add("70");
-        linkedList2.print();
-        System.out.println();
-        linkedList2.insertafter("30","40");
-        linkedList2.print();
+        System.out.println("Stack Operation");
+        Stack<Integer> stack = new Stack<>();
+        stack.push(56);
+        stack.push(30);
+        stack.push(70);
+        stack.print();
 
     }
 }
