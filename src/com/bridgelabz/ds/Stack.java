@@ -13,4 +13,7 @@ public class Stack<E> {
     public void print(){
         linkedList.print();
     }
+    public E pop(){
+       return linkedList.pop();
+    }
 }
